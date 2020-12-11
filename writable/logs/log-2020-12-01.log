@@ -1,0 +1,40 @@
+CRITICAL - 2020-12-01 12:16:30 --> Unable to connect to the database.
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Ctrl.php(23): CodeIgniter\Model->insert(Array)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Ctrl->index()
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctrl))
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-01 13:21:07 --> Unable to connect to the database.
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Ctrl.php(23): CodeIgniter\Model->insert(Array)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Ctrl->index()
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctrl))
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-01 13:22:17 --> Unable to connect to the database.
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Ctrl.php(23): CodeIgniter\Model->insert(Array)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Ctrl->index()
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctrl))
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-01 13:24:53 --> Unable to connect to the database.
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Ctrl.php(23): CodeIgniter\Model->insert(Array)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Ctrl->index()
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctrl))
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

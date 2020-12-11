@@ -1,0 +1,52 @@
+CRITICAL - 2020-12-10 11:49:44 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::addslashes()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->validacionNoticias()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-10 11:49:59 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::addslashes()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->validacionNoticias()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-10 11:52:31 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::addslashes()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->validacionNoticias()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-10 13:14:12 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, array given, called in C:\xampp\htdocs\framework\app\Controllers\Noticias.php on line 67
+#0 C:\xampp\htdocs\framework\app\Controllers\Noticias.php(67): CodeIgniter\Model->findAll(Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->noticiasDelete()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 13:15:07 --> Call to undefined method App\Models\bd_noticias::Deleted
+#0 C:\xampp\htdocs\framework\app\Controllers\Noticias.php(67): CodeIgniter\Model->__call('Deleted', Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->noticiasDelete()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 13:15:12 --> Call to undefined method App\Models\bd_noticias::Deleted
+#0 C:\xampp\htdocs\framework\app\Controllers\Noticias.php(67): CodeIgniter\Model->__call('Deleted', Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->noticiasDelete()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 13:20:21 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\framework\app\Controllers\Noticias.php on line 68
+#0 C:\xampp\htdocs\framework\app\Controllers\Noticias.php(68): view('tablaNoticias', NULL)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->noticiasDelete()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-10 14:01:38 --> Class 'App\Controllers\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->validacionUsuario()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

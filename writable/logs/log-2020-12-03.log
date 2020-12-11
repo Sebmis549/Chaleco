@@ -1,0 +1,9 @@
+CRITICAL - 2020-12-03 14:56:42 --> Invalid file: PaginaPA.php
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PaginaPA.php')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('PaginaPA', Array, true)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Noticias.php(19): view('PaginaPA')
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Noticias->PaginaPA()
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,223 @@
+CRITICAL - 2020-11-26 11:20:54 --> Use of undefined constant vw1 - assumed 'vw1' (this will throw an Error in a future version of PHP)
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\Users\\emma_\\...', 7, Array)
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 11:23:28 --> syntax error, unexpected 'view' (T_STRING)
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Users\\emma_\\...')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 11:23:53 --> syntax error, unexpected 'view' (T_STRING)
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Home')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 11:24:07 --> syntax error, unexpected 'view' (T_STRING)
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Home')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 11:24:25 --> syntax error, unexpected 'view' (T_STRING)
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Home/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 11:25:03 --> Invalid file: welcome_menssage.php
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_menssag...')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_menssag...', Array, true)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Home.php(10): view('welcome_menssag...')
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Home->mundo()
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 11:25:04 --> Invalid file: welcome_menssage.php
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_menssag...')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_menssag...', Array, true)
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\app\Controllers\Home.php(10): view('welcome_menssag...')
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Home->mundo()
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 12:00:51 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:01:18 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:01:19 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:01:20 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:02:31 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:02:32 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:02:32 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:02:32 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:02:34 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Users\\emma_\\...')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 12:02:35 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Users\\emma_\\...')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 12:03:25 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:14 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:45 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:46 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:47 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:47 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:04:47 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:05:25 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:05:25 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:05:26 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:05:26 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:05:26 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 12:06:50 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Ctrl/mundo')
+#1 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Ctrl/mundo')
+#2 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Users\emma_\Desktop\Xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Users\emma_\Desktop\Xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
